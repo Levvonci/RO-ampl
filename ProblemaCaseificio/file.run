@@ -1,0 +1,6 @@
+# file.run
+model ProblemaCaseificio/caseificio.mod;
+data ProblemaCaseificio/caseificio.dat;
+option solver cplex;
+solve;
+display x;
