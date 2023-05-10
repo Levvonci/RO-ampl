@@ -1,0 +1,5 @@
+model Problemi/ProblemaOlii/Olii.mod;
+data Problemi/ProblemaOlii/Olii.dat;
+option solver cplex;
+solve;
+display boj;
