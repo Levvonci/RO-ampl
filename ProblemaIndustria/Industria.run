@@ -3,4 +3,4 @@ model Problemi/ProblemaIndustria/Industria.mod;
 data Problemi/ProblemaIndustria/Industria.dat;
 option solver cplex;
 solve;
-display x;
+display profitto_tot;
