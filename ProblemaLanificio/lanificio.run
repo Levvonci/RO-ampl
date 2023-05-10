@@ -1,0 +1,6 @@
+model Problemi/ProblemaLanificio/Lanificio.mod;
+data Problemi/ProblemaLanificio/Lanificio.dat;
+option solver cplex;
+solve;
+display ore;
+quit;

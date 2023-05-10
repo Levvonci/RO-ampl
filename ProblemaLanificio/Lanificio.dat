@@ -1,0 +1,8 @@
+set MACCHINE:= A, B, C;
+
+param:          st      sp      c :=
+A               3       1       90
+B               2       2       80
+C               2       1       60;
+
+

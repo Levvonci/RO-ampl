@@ -1,6 +1,7 @@
 # file.run
-model ProblemaCaseificio/caseificio.mod;
-data ProblemaCaseificio/caseificio.dat;
+model Problemi/ProblemaCaseificio/caseificio.mod;
+data Problemi/ProblemaCaseificio/caseificio.dat;
 option solver cplex;
 solve;
 display x;
+quit;
