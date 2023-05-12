@@ -1,0 +1,8 @@
+model Problemi/ProblemaFertilizzante/Fertilizzante.mod
+data Problemi/ProblemaFertilizzante/Fertilizzante.dat
+option solver cplex;
+solve;
+display Profitto_compl;
+display x;
+quit;
+

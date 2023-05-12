@@ -15,3 +15,4 @@ subject to disp_latte: sum{i in PROD} l[i]*x[i]<= L;
  # vincolo sulla disponibilita’ del latte
 subject to disp_operai: sum{i in PROD} x[i]/q[i]<=N;
   # vincolo sulla disponibilita’ degli operai
+

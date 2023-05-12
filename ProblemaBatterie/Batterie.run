@@ -1,0 +1,6 @@
+model Problemi/ProblemaBatterie/Batterie.mod;
+data Problemi/ProblemaBatterie/Batterie.dat;
+option solver cplex;
+solve;
+display guadagno;
+quit;

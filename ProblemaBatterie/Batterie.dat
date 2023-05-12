@@ -1,0 +1,8 @@
+set Batterie:= alef, beth, ghimel;
+
+param:          r       c       p :=
+
+alef            0       12      25
+beth            1       6       20
+ghimel          2       4       30
+

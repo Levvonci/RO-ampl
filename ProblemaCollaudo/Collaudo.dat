@@ -1,0 +1,7 @@
+set Impianti := ImpA, ImpB, ImpC;
+
+param:           Rep.1  Rep.2
+ImpA             2      4
+ImpB             3      2
+ImpC             2      3
+
