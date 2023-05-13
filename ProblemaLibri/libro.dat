@@ -1,0 +1,13 @@
+set     Compratori:= Ml, Rm;
+set     Venditori:= Bo, Vt;
+
+param:  Ml      Rm:=
+
+Bo      5       10 
+Vt      15      4;
+
+param:= Rm 400;
+param:= Ml 600;
+param:= Bo 700;
+param:= Vt 800;
+

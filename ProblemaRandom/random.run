@@ -1,0 +1,3 @@
+model Problemi/ProblemaRandom/random.mod
+option solver cplex;
+solve;
