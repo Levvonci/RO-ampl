@@ -1,0 +1,8 @@
+model Problemi/ProblemaGiulia/giulia.mod;
+data Problemi/ProblemaGiulia/giulia.dat;
+option solver cplex;
+solve;
+display z;
+display x;
+quit;
+

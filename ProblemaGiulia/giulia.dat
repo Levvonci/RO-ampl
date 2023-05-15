@@ -1,0 +1,30 @@
+/* Si vuole minimizzare il costo di una colazione con dei limiti sull’apporto di calorie, vitamina A e fibre. Gli alimenti a disposizione sono biscotti integrali, latte e cornflakes. I relativi costi sono c = {-1.5,0.4,0.7} EURO per 100g. I valori nutrizionali per 100g sono i seguenti:
+
+                bis   lat   cor 
+kilocalorie     452   64    365 
+fibre (g)       8     0     23
+vitamina A (U)  0     47    1.8
+
+
+I valori nutrizionali minimi sono 10 per le fibre e 10 per la vitamina A. I
+limiti minimi e massimi di apporto calorico sono 400 e 600 rispettivamente. Si formuli il problema (ottimo pari a 0.7, biscotti = 1.25, latte = 0.21). */
+
+
+set Alimenti:= bis, lat, corn;
+
+param:      kc    fib    vit:=
+
+bis         452   8      0
+lat         64    0      47
+corn        365   2.3    1.8;
+
+param:      costi:=
+
+bis         0.5
+lat         0.4
+corn        0.7;
+
+param min_fib := 10;
+param vit_min := 10;
+param Min := 400;
+param Max := 600;
