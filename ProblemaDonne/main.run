@@ -1,0 +1,9 @@
+option solver cplex;
+model Problemi/ProblemaDonne/lavatrici.mod;
+data Problemi/ProblemaDonne/lavatrici.dat;
+solve;
+display z;
+display x;
+
+expand > Problemi/ProblemaLavatrici/lavatrici.lp;
+
