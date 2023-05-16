@@ -1,0 +1,11 @@
+option solver cplex;
+model Problemi/ProblemaEsame/es.mod
+data Problemi/ProblemaEsame/es.dat;
+
+for{i in 1..10}{
+   solve;
+   let a['r2','x2'] := i;
+   display a['r2','x2'];
+   display z;
+   display x;
+};
